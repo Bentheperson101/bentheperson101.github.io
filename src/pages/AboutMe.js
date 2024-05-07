@@ -1,22 +1,25 @@
-import ContactList from "../Components/ContactList";
+//import { useState } from "react";
 
-const Contact = () => {
-    
+const AboutMe = () => {
+    /*const [isAdding, setIsAdding] = useState(false);
+    const [, updateState] = useState();
+
+    function updateParentState() {
+       updateState({});
+    };*/
 
     return (
         <div>
             <div className="row p-3">
                 <div className="col-lg-12 pt-3 text-center">
-                    <h1>Where to Contact Me</h1>
-                    <h5>You can reach out to me in whatever fashion you would like.</h5>
+                    <h1>All about me</h1>
+                    <h5>Here you can learn about my professional life and my interests!</h5>
                 </div>
             </div>
             <hr></hr>
             <div className="row">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">
-                    <h2 className="mt-2 mb-3">Here is all my Information: </h2>
-                    <ContactList />
                 </div>
                 <div className="col-lg-2"></div>
             </div>
@@ -24,4 +27,4 @@ const Contact = () => {
     )
 };
 
-export default Contact;
+export default AboutMe;

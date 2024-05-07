@@ -2,8 +2,8 @@ import ReactDOM from "react-dom/client";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import FavoritePlanets from "./pages/FavoritePlanets";
-import News from "./pages/News";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 
@@ -13,8 +13,8 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home/>}/>
-          <Route path="favoriteplanets" element={<FavoritePlanets/>}/>
-          <Route path="news" element={<News/>}/>
+          <Route path="aboutme" element={<AboutMe/>}/>
+          <Route path="projects" element={<Projects/>}/>
           <Route path="contact" element={<Contact/>}/>
         </Route>
 

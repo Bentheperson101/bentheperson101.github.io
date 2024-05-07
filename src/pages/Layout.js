@@ -18,13 +18,13 @@ const Layout = () => {
                             <Link className="nav-link ms-5" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link  className="nav-link ms-3" to="/FavoritePlanets">Favorite Planets</Link>
+                            <Link  className="nav-link ms-3" to="/AboutMe">About Me</Link>
                         </li>
                         <li class="nav-item">
-                            <Link  className="nav-link ms-3" to="/News">News</Link>
+                            <Link  className="nav-link ms-3" to="/Projects">My Projects</Link>
                         </li>
                         <li class="nav-item">
-                            <Link  className="nav-link ms-3" to="/Contact">Contact Us</Link>
+                            <Link  className="nav-link ms-3" to="/Contact">Contact Me</Link>
                         </li>
                     </ul>
                 </div>
