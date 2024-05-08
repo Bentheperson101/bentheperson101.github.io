@@ -9,6 +9,13 @@ body {
   color: #fbf9ff;
 }
 
+footer {
+  text-align: center;
+  background-image: linear-gradient(#313131, #474747);
+  overflow: hidden;
+  padding: 10px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -58,6 +65,7 @@ code {
   text-decoration: none;
   font-size: 1.5em;
 }
+
 .benji-button:hover {
   background-color: #dad7ff;
 }

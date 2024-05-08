@@ -1,37 +1,29 @@
 import PageHeader from "../Components/PageHeader";
-import PageFooter from "../Components/PageFooter";
+import ProjectCard from "../Components/ProjectCard";
 
 const Projects = () => {
     return (
         <div>
             <PageHeader 
                 title="My Projects" 
-                desc="Here's all the projects I have done that I am happy with sharing" 
+                desc="All the projects I made (that I am happy with sharing)" 
             />
-            <div className="row">
-                <div className="col-lg-2"></div>
-                <div className="col-lg-8">
-                    <div className="benji-border p-3">
-                        <h2 className="p-3">Unity Project:</h2>
-                        <hr></hr>
-                        <p className="p-3">
-                            <b>Summary:</b><br></br>
-                            I made a game
-                            <br></br>
-                            <br></br>
-                            <i>Check it out further on itch.io with the "Check it out" button at the bottom of this info box.</i>
-                        </p>
-                        <img className="w-50 mx-auto d-block rounded" src="https://img.itch.zone/aW1hZ2UvMjY2ODAyNS8xNTkxMDE5OC5wbmc=/original/1tVSv4.png" alt="article highlight"></img>
-                            <br></br>
-                            <p className="text-center"><i>Screenshot from the game</i></p>
-                        <a href="https://bentheperson101.itch.io/knights-last-stand" className="p-2 mt-5 mb-5 benji-button">Check it out</a>
-                        <p></p>
-                    </div>
-                    <br></br>
-                </div>
-                <div className="col-lg-2"></div>
-            </div>
-            <PageFooter />
+            <ProjectCard
+                title="My First Game"
+                desc="I made my first game in unity for a game development class I took as a free elective. It's made
+                with free assets and my own code. [FINISH WRITING]"
+                img="https://img.itch.zone/aW1hZ2UvMjY2ODAyNS8xNTkxMDE5OC5wbmc=/original/1tVSv4.png"
+                link="https://bentheperson101.itch.io/knights-last-stand"
+            />
+            <ProjectCard
+                title="This Website"
+                desc="I learned how to write HTML, CSS, JavaScript, and some JSX with react in different courses.
+                I also learned some things about backend, but this website does not really require it, and I am still
+                learning how to set that up with a live website. I will likely have an example on this site once I do.
+                 [FINISH WRITING]"
+                img="website code.png"
+                link=""
+            />
         </div>
     )
 };

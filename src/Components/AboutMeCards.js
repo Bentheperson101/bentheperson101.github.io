@@ -1,6 +1,6 @@
 import { planets } from "../data";
 
-export default function InterestCards() {
+export default function AboutMeCards() {
 
     const listItem = planets.map(planet=>
         <div >

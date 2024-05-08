@@ -1,6 +1,5 @@
 //import { useState } from "react";
 import PageHeader from "../Components/PageHeader";
-import PageFooter from "../Components/PageFooter";
 
 const AboutMe = () => {
     /*const [isAdding, setIsAdding] = useState(false);
@@ -14,7 +13,7 @@ const AboutMe = () => {
         <div>
             <PageHeader
                 title="All About Me"
-                desc="Here you can learn about my professional life and my interests!"
+                desc="Read about my professional life and my interests!"
             />
             <div className="row">
                 <div className="col-lg-2"></div>
@@ -22,7 +21,6 @@ const AboutMe = () => {
                 </div>
                 <div className="col-lg-2"></div>
             </div>
-            <PageFooter />
         </div>
     )
 };
