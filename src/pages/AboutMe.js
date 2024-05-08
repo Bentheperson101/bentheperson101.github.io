@@ -1,4 +1,5 @@
 //import { useState } from "react";
+import PageHeader from "../Components/PageHeader";
 
 const AboutMe = () => {
     /*const [isAdding, setIsAdding] = useState(false);
@@ -10,13 +11,10 @@ const AboutMe = () => {
 
     return (
         <div>
-            <div className="row p-3">
-                <div className="col-lg-12 pt-3 text-center">
-                    <h1>All about me</h1>
-                    <h5>Here you can learn about my professional life and my interests!</h5>
-                </div>
-            </div>
-            <hr></hr>
+            <PageHeader
+                title="All About Me"
+                desc="Here you can learn about my professional life and my interests!"
+            />
             <div className="row">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">

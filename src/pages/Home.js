@@ -1,16 +1,13 @@
 //import InterestCards from "../Components/InterestCards";
+import PageHeader from "../Components/PageHeader";
 
 const Home = () => {
     return (
         <div>
-            <div className="row p-3">
-                <div className="col-lg-12 pt-3 text-center">
-                    <h1>Hello! I'm Benjamin Kosty</h1>
-                    <h5>Welcome to my website!</h5>
-                    <h3>Explore the other links!</h3>
-                </div>
-            </div>
-            <hr></hr>
+            <PageHeader
+                title="Hello! I'm Benjamin"
+                desc="Welcome to my website! Feel free to explore all the pages!"
+            />
             <div className="row p-2">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">

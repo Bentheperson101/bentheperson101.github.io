@@ -1,17 +1,15 @@
 import ContactList from "../Components/ContactList";
+import PageHeader from "../Components/PageHeader";
 
 const Contact = () => {
     
 
     return (
         <div>
-            <div className="row p-3">
-                <div className="col-lg-12 pt-3 text-center">
-                    <h1>Where to Contact Me</h1>
-                    <h5>You can reach out to me in whatever fashion you would like.</h5>
-                </div>
-            </div>
-            <hr></hr>
+            <PageHeader
+                title="Where to Contact Me"
+                desc="You can reach out to me in whatever fashion you would like."
+            />
             <div className="row">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">
