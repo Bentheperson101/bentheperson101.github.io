@@ -12,9 +12,9 @@ const Projects = () => {
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8">
                     <br></br>
-                    <div className="border1 rounded p-3">
+                    <div className="benji-border p-3">
                         <p>
-                        <h3 className="text-center text-decoration-underline">Unity Project:</h3>
+                        <h2 className="text-center p-3 title-gradient">Unity Project:</h2>
                             <b>Summary:</b><br></br>
                             I made a game
                             <br></br>
@@ -24,7 +24,7 @@ const Projects = () => {
                         <img className="w-50 mx-auto d-block rounded" src="https://img.itch.zone/aW1hZ2UvMjY2ODAyNS8xNTkxMDE5OC5wbmc=/original/1tVSv4.png" alt="article highlight"></img>
                             <br></br>
                             <p className="text-center"><i>Screenshot from the game</i></p>
-                        <a href="https://bentheperson101.itch.io/knights-last-stand" className=" rounded p-2 mt-5 mb-5 button1">Play it</a>
+                        <a href="https://bentheperson101.itch.io/knights-last-stand" className="p-2 mt-5 mb-5 benji-button">Play it</a>
                     </div>
                     <br></br>
                 </div>
