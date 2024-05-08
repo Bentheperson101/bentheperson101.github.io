@@ -1,4 +1,5 @@
 import PageHeader from "../Components/PageHeader";
+import PageFooter from "../Components/PageFooter";
 
 const Projects = () => {
     return (
@@ -30,6 +31,7 @@ const Projects = () => {
                 </div>
                 <div className="col-lg-2"></div>
             </div>
+            <PageFooter />
         </div>
     )
 };

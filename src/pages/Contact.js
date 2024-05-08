@@ -1,5 +1,6 @@
 import ContactList from "../Components/ContactList";
 import PageHeader from "../Components/PageHeader";
+import PageFooter from "../Components/PageFooter";
 
 const Contact = () => {
     
@@ -12,12 +13,13 @@ const Contact = () => {
             />
             <div className="row">
                 <div className="col-lg-2"></div>
-                <div className="col-lg-8">
-                    <h2 className="mt-2 mb-3">Here is all my Information: </h2>
+                <div className="col-lg-8 benji-border p-3">
+                    <h2 className="mt-2 mb-3">Here is my contact info: </h2>
                     <ContactList />
                 </div>
                 <div className="col-lg-2"></div>
             </div>
+            <PageFooter />
         </div>
     )
 };

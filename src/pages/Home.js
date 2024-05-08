@@ -1,5 +1,6 @@
 //import InterestCards from "../Components/InterestCards";
 import PageHeader from "../Components/PageHeader";
+import PageFooter from "../Components/PageFooter";
 
 const Home = () => {
     return (
@@ -8,14 +9,14 @@ const Home = () => {
                 title="Hello! I'm Benjamin"
                 desc="Welcome to my website! Feel free to explore all the pages!"
             />
-            <div className="row p-2">
+            <div className="row">
                 <div className="col-lg-2"></div>
-                <div className="col-lg-8">
-                    <h2 className="text-center">What I am Currently doing:</h2>
-                    <h1>Please be advised: this site is still a work in progress!</h1>
+                <div className="col-lg-8 benji-border p-3">
+                    <h1 style={{color: "yellow"}}>Please be advised: this site is still a work in progress!</h1>
                 </div>
                 <div className="col-lg-2"></div>
             </div>
+            <PageFooter />
         </div>
     )
 };
