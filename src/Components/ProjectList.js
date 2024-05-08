@@ -1,7 +1,7 @@
 import { favoritePlanets } from "../data";
 import { useState } from "react";
 
-export default function FavoritePlanetList() {
+export default function ProjectList() {
     const [, updateState] = useState();
     
     const clickHandler = id => event => {
