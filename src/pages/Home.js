@@ -12,6 +12,8 @@ const Home = () => {
                 <div className="col-sm-2"></div>
                 <div className="col-sm-8 benji-border p-3">
                     <h1 style={{color: "yellow"}}>Please be advised: this site is still a work in progress!</h1>
+                    <h3>About this site</h3>
+                    
                 </div>
                 <div className="col-sm-2"></div>
             </div>

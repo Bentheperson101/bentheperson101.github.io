@@ -18,9 +18,8 @@ const Projects = () => {
             <ProjectCard
                 title="This Website"
                 desc="I learned how to write HTML, CSS, JavaScript, and some JSX with react in different courses.
-                I also learned some things about backend, but this website does not really require it, and I am still
-                learning how to set that up with a live website. I will likely have an example on this site once I do.
-                 [FINISH WRITING]"
+                I know about backend but I am still learning about how it works in on a live website. Eventually
+                an example will be on here."
                 img="website code.png"
                 link=""
             />
