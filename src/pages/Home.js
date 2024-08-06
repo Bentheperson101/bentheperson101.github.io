@@ -1,6 +1,7 @@
 //import InterestCards from "../Components/InterestCards";
 import PageHeader from "../Components/PageHeader";
 import FactCard from "../Components/FactCard";
+import LangBubble from "../Components/LangBubble";
 
 const Home = () => {
     let today = new Date();
@@ -38,7 +39,7 @@ const Home = () => {
                     <div className="p-3">
                     <p>I'm Benjamin Kosty, here are some quick facts:</p>
 
-                    <div className="row p-1">
+                    <div className="row">
                         <FactCard 
                             fact = {"I am " + age + " years old and my birthday is on August 19th."}
                         />
@@ -49,7 +50,7 @@ const Home = () => {
                             fact = "I will finish up my bachelors in Computer Science this December."
                         />
                         <FactCard 
-                            fact = "I have a love for creating things and problem solving."
+                            fact = "I have a love for creating  different things and problem solving."
                         />
                     </div>
                     <br></br>
@@ -57,32 +58,19 @@ const Home = () => {
                     <h5>I Am Currently:</h5>
                     <p>Looking for an internship while finishing my degree and working at Target. Anything related to
                     software development or web development is the goal, I need experience.</p>
-
-                    <h5>Coding Languages and Tools I Am Familiar With:</h5>
-                    <br></br>
-                    <div className="row m-2 mb-4">
-                        <div className="col-1 lang-bubble">C++</div>
-                        <div className="col-1 lang-bubble">C#</div>
-                        <div className="col-1 lang-bubble">Python</div>
-                        <div className="col-1 lang-bubble">Java</div>
-                        <div className="col-1 lang-bubble">JavaScript</div>
-                        <div className="col-1 lang-bubble">JSX</div>
-                        <div className="col-1 lang-bubble">SQL</div>
-                        <div className="col-1 lang-bubble">PHP</div>
-                    </div>
-                    <div className="row m-2">
-                        <div className="col-1 lang-bubble">HTML</div>
-                        <div className="col-1 lang-bubble">CSS</div>
-                        <div className="col-1 lang-bubble">React</div>
-                        <div className="col-1 lang-bubble">Bootstrap5</div>
-                        <div className="col-1 lang-bubble">XAMPP</div>
-                        <div className="col-1 lang-bubble">VS Code</div>
-                        <div className="col-1 lang-bubble">Unity</div>
-                        <div className="col-1 lang-bubble">GitHub</div>
-                    </div>
                     <br></br>
 
-                    <p><h5>My Story:</h5>&nbsp;Back in high school I was unsure of my direction in life. I had originally
+                    <h5 className="mb-3">Coding Languages and Tools I Am Familiar With:</h5>
+
+                    <LangBubble
+                        langs= {["C++", "C#", "Python", "Java", "JavaScript", "SQL", "PHP", "MongoDB"]}
+                    />
+                    <LangBubble
+                        langs= {["HTML", "CSS", "React", "Bootstrap5", "XAMPP", "VS Code", "Unity", "GitHub"]}
+                    />
+                    <br></br>
+
+                    <p><h5>My Story:</h5>Back in high school I was unsure of my direction in life. I had originally
                     planned to become an astronaut, but my grades were not good enough at the time and the 
                     idea overwhelmed me. I had joined a club with my friends that was technology based, since
                     I had a bit of an interest in games and the idea of coding. We used that time to do whatever 
