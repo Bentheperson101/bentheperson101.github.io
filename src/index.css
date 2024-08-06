@@ -7,9 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #090302;
   color: #fbf9ff;
+  overflow-x: hidden;
+  
+  display:grid;
+  min-height:100vh;
 }
 
 footer {
+  margin-top:auto;
+  width: 100%;
   text-align: center;
   background-image: linear-gradient(#313131, #474747);
   overflow: hidden;
@@ -76,4 +82,29 @@ code {
   margin-left: auto;
   color: #313131;
   background-image: linear-gradient(#8B80F9, #e5f77d);
+}
+
+.benji-fact {
+  border: solid;
+  border-color: lightgoldenrodyellow;
+  border-radius: 15px;
+  margin: auto;
+  padding: 15px;
+}
+
+h4 {
+  color: yellow;
+}
+
+.nav-title {
+  color: yellow;
+}
+
+.lang-bubble {
+  background-color: lightblue;
+  color: black;
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
 }

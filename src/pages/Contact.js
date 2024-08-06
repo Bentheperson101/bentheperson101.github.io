@@ -11,7 +11,7 @@ export default function Contact() {
             <div className="row mb-4">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-8 benji-border p-3">
-                    <h4 className="p-3">My contact info: </h4>
+                    <h4 className="p-3 ">My Contact Info: </h4>
                     <hr></hr>
                     <ContactList />
                 </div>

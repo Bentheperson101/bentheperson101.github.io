@@ -7,7 +7,7 @@ const Layout = () => {
               <div class="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img src="logo.png" alt="Logo" style={{width: 40}}></img>
-                    <b className="ms-2">BenjiWeb</b>
+                    <b className="ms-2 nav-title">BenjiWeb</b>
                 </Link>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@ const Layout = () => {
                             <Link className="nav-link ms-3" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link  className="nav-link ms-3" to="/AboutMe">About Me</Link>
+                            <Link  className="nav-link ms-3" to="/History">History</Link>
                         </li>
                         <li class="nav-item">
                             <Link  className="nav-link ms-3" to="/Projects">My Projects</Link>
