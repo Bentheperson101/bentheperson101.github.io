@@ -5,7 +5,7 @@ const Layout = () => {
 
     return(
         <>
-            <div class="m-2 sticky-top">
+            <div class="p-3 sticky-top">
                 <Link className="logo" to="/">
                     <img src="logo.png" alt="Logo" style={{width: 40}}></img>
                 </Link>
