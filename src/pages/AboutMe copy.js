@@ -1,14 +1,10 @@
 //import { useState } from "react";
-import PageHeader from "../Components/PageHeader";
+//import PageHeader from "../Components/PageHeader";
 import HistoryCard from "../Components/HistoryCard";
 
-const History = () => {
+const AboutMe = () => {
     return (
         <div>
-            <PageHeader
-                title="All About My Academic and Professional History"
-                desc="Read about my professional life."
-            />
             <div className="row mb-4">
                 <div className="col-lg-2"></div>
                 <div className="col-lg-4">
@@ -59,4 +55,4 @@ const History = () => {
     )
 };
 
-export default History;
+export default AboutMe;

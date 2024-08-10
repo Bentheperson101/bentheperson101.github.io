@@ -1,23 +1,9 @@
-import PageHeader from "../Components/PageHeader";
+//import PageHeader from "../Components/PageHeader";
 import ProjectCard from "../Components/ProjectCard";
 
-const Projects = () => {
+const Works = () => {
     return (
-        <div>
-            <PageHeader 
-                title="My Projects" 
-                desc="All my projects that I am happy with sharing." 
-            />
-            <ProjectCard
-                title="This Website"
-                langs="HTML, CSS, JavaScript/JSX, React, Bootstrap 5, Visual Studio Code"
-                desc="I learned how to write HTML, CSS, JavaScript, and JSX with react across different courses.
-                I know about backend, but I am still learning about implementing it on a live website. Eventually
-                an example will be on here. More details are on the Home page, so I will not explain further. Also, 
-                the screenshot attached  is a bit old but serves its purpose."
-                img="images/website code.png"
-                link=""
-            />
+        <div className="p-3">
             <ProjectCard
                 title="My First Game"
                 langs="C#, Unity, Visual Studio 2022"
@@ -54,4 +40,4 @@ const Projects = () => {
     )
 };
 
-export default Projects;
+export default Works;
