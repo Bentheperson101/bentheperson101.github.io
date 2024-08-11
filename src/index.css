@@ -86,13 +86,12 @@ a {
   font-size: 1.2em;
 }
 .tab-list-item:hover {
-  background-color: #E5F77D;
-  color:#313131
+  border-color: #E5F77D;
 }
 .selected-tab-list-item {
   width:100%;
-  background-color: #E5F77D;
-  border: 3px outset #313131;
+  background-color: #8B80F9;
+  border: 3px inset #313131;
   font-weight: bold;
   font-size: 1.2em;
 }
@@ -104,17 +103,19 @@ a {
   min-height: 50vh;
 }
 
-.benji-button {
+.benji-link {
   color: #313131;
   background-color: #72DDF7;
   border: 3px outset #313131;
   font-weight: bold;
   text-decoration: none;
   font-size: 1.5em;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 
-.benji-button:hover {
-  background-color: #8B80F9;
+.benji-link:hover {
+  background-color: #e5f77d;
 }
 
 .proj-pic {

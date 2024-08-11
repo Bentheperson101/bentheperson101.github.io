@@ -16,7 +16,7 @@ export const aboutMeCards = [{
     title: "Who I Am",
     text: 
     <> 
-        <p>I'm Benjamin Kosty, here are some quick facts:</p>
+        {/*<p>I'm Benjamin Kosty, here are some quick facts:</p>
         <div className="row">
             <FactCard 
                 fact = {"I am " + age + " years old and my birthday is on August 19th."}
@@ -31,7 +31,7 @@ export const aboutMeCards = [{
                 fact = "I have a love for creating  different things and problem solving."
             />
         </div>
-        <br></br>
+        <br></br>*/}
         <p><h5>My Story:</h5>Back in high school I was unsure of my direction in life. I had originally
         planned to become an astronaut, but my grades were not good enough at the time and the 
         idea overwhelmed me. I had joined a club with my friends that was technology based, since
@@ -47,6 +47,16 @@ export const aboutMeCards = [{
     </>
 }, {
     id: 1,
+    title: "Interests",
+    text: 
+     <>
+        <LangBubble
+            langs= {["Gaming", "Anime", "Manga", "Hiking", "Camping", "Exploring", "Music", "Creating"]}
+        />
+        <br></br>
+     </>
+}, {
+    id: 2,
     title: "Tech Knowledge",
     text: 
      <>
@@ -61,7 +71,7 @@ export const aboutMeCards = [{
         <br></br>
      </>
 }, {
-    id: 2,
+    id: 3,
     title: "Job History",
     text: 
         <>
@@ -74,7 +84,7 @@ export const aboutMeCards = [{
               active trainer there for new fulfillment employees.</p>
         </>
 }, {
-    id: 3,
+    id: 4,
     title: "Education",
     text: 
      <>
@@ -90,7 +100,7 @@ export const aboutMeCards = [{
             Introduction to Programming with Python, Java I, Intro to Artificial Intelligence, and Intro to Game Programming.</p>
      </>
 }, {
-    id: 4,
+    id: 5,
     title: "Resume",
     text: 'link here idk'
 }];

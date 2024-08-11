@@ -16,8 +16,7 @@ export default function ProjectCard({ title, langs, desc, img, link }) {
                         <img className="w-50 mx-auto d-block rounded proj-pic" src={img} alt="project"></img>
                         <br></br>
                         <p><i>Screenshot from the project</i></p>
-                        {link==="" ? null : <a href={link} className="p-2 mt-5 mb-5 benji-button">Check it out</a>}
-                        <p></p>
+                        <a href={link} className="p-2 mt-5 mb-5 benji-link"  target="_blank" rel="noreferrer">Check it out</a>
                         <br></br>
                     </div>
                 </div>
