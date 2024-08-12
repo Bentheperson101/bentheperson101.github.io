@@ -28,6 +28,22 @@ code {
   min-width: 90%;
 }
 
+.icon {
+  height: 1em;
+  width: 1em;
+}
+.icon-lines {
+  height: 1em;
+  width: 1em;
+  fill:none; 
+  stroke-width:10;
+}
+.icon-text {
+  height: 1em;
+  width: 1em;
+  stroke-width:0;
+}
+
 .title {
   color: #e5f77d;
   margin-top: 5vh;
@@ -36,20 +52,24 @@ code {
 }
 
 .navbar-nav {
-  font-size: 1.5em;
+	display: inline-block;
+  font-size: 1em;
   background-color: #72DDF7;
   background-color: rgba(114, 221, 246, 0.8);
   border-radius: 25px;
 }
-.navbar-toggler {
-  background-color: #72DDF7;
-  background-color: rgba(114, 221, 246, 0.8);
+.nav-item {
+	display: inline-block;
 }
 .nav-link {
   color: #313131;
+  stroke: #313131;
+  fill: #313131;
 }
 .nav-link:hover {
   color: #e5f77d;
+  stroke: #E5F77D;
+  fill: #E5F77D;
 }
 .current-page {
   background-color: #8B80F9;
@@ -142,4 +162,39 @@ h4 {
 .lang-bubble-text {
   color: black;
   padding: 4px;
+}
+
+/*setting up mobile display*/
+.tablet-mobile {
+  display: block;
+}
+.mobile-only {
+  display: block;
+}  
+.desktop-only {
+  display: none;
+}
+/*media query for tablets*/
+@media screen and (min-width: 563px) and (max-width: 769px)
+{
+  .mobile-only {
+    display: none;
+  }
+}
+
+/*media query for desktop*/
+@media screen and (min-width: 769px)
+{
+  .tablet-mobile {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
+  .navbar-nav {
+    font-size: 1.5em;
+    background-color: #72DDF7;
+    background-color: rgba(114, 221, 246, 0.8);
+    border-radius: 25px;
+  }
 }

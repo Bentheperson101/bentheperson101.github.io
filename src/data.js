@@ -57,7 +57,7 @@ export const aboutMeCards = [{
      </>
 }, {
     id: 2,
-    title: "Tech Knowledge",
+    title: "Tech",
     text: 
      <>
         <h5 className="mb-3">Tech I Am Comfortable With:</h5>

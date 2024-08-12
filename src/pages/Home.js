@@ -19,15 +19,9 @@ const Home = () => {
                         <p>Looking for an internship while finishing my degree and working at Target. Anything related to
                         software development or web development is the goal, I need experience.</p>
                         <br></br>
-                        <svg fill="#313131" width="100" height="auto" viewBox="0 0 150 150">
-                            {//<rect width="50" height="50" x="25px" y="25" style={{strokeWidth:"3", stroke:"red"}}></rect>
-                            }
-                            <polyline points="150 50, 140 50, 75 5, 10 50, 0 50, 10 50, 10 150, 0 150, 150 150, 140 150, 140 50" style={{fill:"none", strokeWidth:"5", stroke:"red"}}></polyline>
-                        </svg>
-                        
-                        
-                        <svg fill="#313131" width="100" height="100" >
-                            <path d="M 85 35 50 5 15 35 25 25 25 75 75 75 75 25" style={{strokeWidth:"5", stroke:"red"}}></path>
+                        <svg width="300" height="auto" viewBox="0 0 150 150">
+                            <polyline points="15 50, 15 140, 5 140, 55 140, 55 80, 95 80, 95 140, 145 140, 135 140, 135 50" style={{fill:"none", strokeWidth:"10", stroke:"red"}}></polyline>
+                            <polyline points="145 57, 75 5, 5 57" style={{fill:"none", strokeWidth:"10", stroke:"red"}}></polyline>
                         </svg>
                     </div>
                 }
