@@ -18,15 +18,20 @@ const AboutMe = () => {
     )
 
     return (
-        <div className="p-3">
+        <div className="">
             <ContentCard
                 title=""
                 content={
                     <div className="row mx-auto" style={{height: "100%"}}>
-                        <div className="col-3 py-5 tab-list">
+                        <div className="col-3 py-5 tab-list title-text">
                             {listTabs}
                         </div>
-                        <div className="col-9 about-card">
+                        <div className="col-9 tablet-desktop about-card">
+                            <AboutMeCard
+                                text={aboutMeCards[index].text}
+                            />
+                        </div>
+                        <div className="col-12 mobile-only about-card">
                             <AboutMeCard
                                 text={aboutMeCards[index].text}
                             />

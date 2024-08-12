@@ -84,26 +84,13 @@ a {
   color: #E5F77D;
 }
 
-.content {
-  margin-left: 20%;
-  margin-right: 20%;
-}
-
-.about-card {
-  color: #72DDF7;
-  height: 100%;
-  border-left: 3px solid #72DDF7;
-}
-.tab-list {
-  font-size: 1.2em;
-}
 .tab-list-item {
   width:100%;
   color: #313131;
   background-color: #72DDF7;
   border: 3px outset #313131;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .tab-list-item:hover {
   border-color: #E5F77D;
@@ -113,7 +100,7 @@ a {
   background-color: #8B80F9;
   border: 3px inset #313131;
   font-weight: bold;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .benji-border {
@@ -154,12 +141,11 @@ h4 {
   color: #e5f77d;
 }
 
-.lang-bubble {
+.item-bubble {
   background-color: lightblue;
   border-radius: 15px;
 }
-
-.lang-bubble-text {
+.item-bubble-text {
   color: black;
   padding: 4px;
 }
@@ -168,25 +154,73 @@ h4 {
 .tablet-mobile {
   display: block;
 }
+.tablet-desktop {
+  display: none;
+}
 .mobile-only {
   display: block;
 }  
 .desktop-only {
   display: none;
 }
-/*media query for tablets*/
+.tab-list {
+  display: none;
+}
+.content {
+  width: 100%;
+  display: block;
+}
+.content img {
+  margin: auto;
+  width: 50%;
+  border-radius: 15px;
+}
+.about-card {
+  color: #72DDF7;
+  height: 100%;
+  border-left: none;
+}
+/*media query for tablets only*/
 @media screen and (min-width: 563px) and (max-width: 769px)
 {
+  .tablet-mobile {
+    display: block;
+  }
+}
+/*media query for tablets and desktop*/
+@media screen and (min-width: 563px)
+{
+  .tablet-desktop {
+    display: block;
+  }
+  .tab-list {
+    display: block;
+    font-size: 0.9em;
+  }
   .mobile-only {
     display: none;
   }
+  .content {
+    width: 100%;
+    display: inline-flex;
+  }
+  .content img {
+    border-radius: 15px;
+    width: 20%;
+    height: 20%;
+  }
+  .about-card {
+    border-left: 3px solid #72DDF7;
+  }
 }
-
-/*media query for desktop*/
+/*media query for desktop only*/
 @media screen and (min-width: 769px)
 {
   .tablet-mobile {
     display: none;
+  }
+  .tab-list {
+    font-size: 1.4em;
   }
   .desktop-only {
     display: block;

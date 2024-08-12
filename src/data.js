@@ -1,5 +1,5 @@
 import FactCard from "./Components/FactCard";
-import LangBubble from "./Components/LangBubble";
+import ItemBubble from "./Components/ItemBubble";
 
 export const worksInfo = [{
     id: 0,
@@ -50,8 +50,8 @@ export const aboutMeCards = [{
     title: "Interests",
     text: 
      <>
-        <LangBubble
-            langs= {["Gaming", "Anime", "Manga", "Hiking", "Camping", "Exploring", "Music", "Creating"]}
+        <ItemBubble
+            items= {["Gaming", "Anime", "Manga", "Hiking", "Camping", "Exploring", "Music", "Creating", "Traveling"]}
         />
         <br></br>
      </>
@@ -61,12 +61,12 @@ export const aboutMeCards = [{
     text: 
      <>
         <h5 className="mb-3">Tech I Am Comfortable With:</h5>
-        <LangBubble
-            langs= {["HTML", "CSS", "React", "C#", "JavaScript", "VS Code", "GitHub", "Unity"]}
+        <ItemBubble
+            items= {["HTML", "CSS", "React", "C#", "JavaScript", "VS Code", "GitHub", "Unity"]}
         />
         <h5 className="mb-3">Tech I Am Familiar With:</h5>
-        <LangBubble
-            langs= {["C++", "Bootstrap5", "XAMPP", "MongoDB", "SQL", "PHP", "Python", "Java"]}
+        <ItemBubble
+            items= {["C++", "Bootstrap5", "XAMPP", "MongoDB", "SQL", "PHP", "Python", "Java"]}
         />
         <br></br>
      </>
