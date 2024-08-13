@@ -19,8 +19,8 @@ export const aboutMeCards = [{
         <br></br>
         <h5>Some fun facts</h5>
         <ul>
-            <li>{"I am " + age + " years old and my birthday is on August 19th."}</li>
-            <li>I will finish up my bachelors in Computer Science this December.</li>
+            <li>{"I am " + age + " years old, and my birthday is on August 19th."}</li>
+            <li>I will finish up my bachelor's in computer science this December.</li>
             <li>I have a love for creating different things and problem solving.</li>
         </ul>
         <br></br>
@@ -44,7 +44,7 @@ export const aboutMeCards = [{
                 "I had a bit of an interest in games and the idea of coding. We used that time to do whatever " +
                 "projects the teacher overseeing gave us as well as mess around with unity on one of the computers " +
                 "trying to make a silly 2D game. The teacher at one point recognized our interest in coding and " +
-                "offered to place us into the honors programming course the following year. My friend and accepted " +
+                "offered to place us into the honors programming course the following year. My friend and I accepted " +
                 "the offer, and I found my place after that. Eventually, it would lead me to getting a five on the " +
                 "AP exam and going off to college to pursue computer science."}
             key={"story"}
@@ -94,8 +94,8 @@ export const aboutMeCards = [{
                 text={"I fulfill online orders for customers as a fulfillment expert. I search, retrieve, " +
                     "and stow a batch of 23 - 36 unique items from the sales floor and backroom in under 90 minutes. " +
                     "I have to be able to search well, utilize the tools given, analyze the item data to be able to find the items." +
-                    "There are times when items are not located in time or at all and must be canceled from the order. I am also an" +
-                    "active trainer there for new fulfillment employees."}
+                    " There are times when items are not located in time or at all and must be canceled from the order. I am also an" +
+                    " active trainer there for new fulfillment employees."}
                 key={"target"}
             />
         </>
