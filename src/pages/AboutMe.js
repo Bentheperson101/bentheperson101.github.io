@@ -13,24 +13,27 @@ const AboutMe = () => {
         }
     }
 
+    function expand(selectedIndex) {
+        setIndex(selectedIndex);
+    }
+
+
     const listTabs = aboutMeCards.map(card=>
-        <button className={card.id === index ? "selected-tab-list-item my-4 p-2 text-nowrap" : "tab-list-item my-4 p-2 text-nowrap"} onClick={() => handleClick(card.id)}>{card.title}</button>
+        <button className={card.id === index ? "selected-tab-list-item my-4 p-2 text-nowrap mx-auto" : "tab-list-item my-4 p-2 text-nowrap mx-auto"} onClick={() => handleClick(card.id)}>{card.title}</button>
     )
 
     const listCards = aboutMeCards.map(card =>
-        <ContentCard
-            title=""
-            content={
                 <div className="row mx-auto" style={{height: "100%"}}>
-                    <div className="col-9 about-card">
+                    <div className="about-card">
                         <AboutMeCard
                             title={card.title}
                             subtitle={card.subtitle}
                             text={card.text}
+                            isActive={index===card.id}
+                            expand={() => expand(card.id)}
                         />
                     </div>
-                </div>}
-        />
+                </div>
     )
 
     return (
@@ -40,8 +43,8 @@ const AboutMe = () => {
                     <ContentCard
                         title=""
                         content={
-                            <div className="row mx-auto" style={{height: "100%"}}>
-                                <div className="col-3 py-5 tab-list title-text">
+                            <div className="row" style={{height: "100%", width:"100%"}}>
+                                <div className="col-3 py-5 tab-list">
                                     {listTabs}
                                 </div>
                                 <div className="col-9 about-card">

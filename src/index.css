@@ -5,7 +5,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #72DDF7;
   overflow-x: hidden;
-  background-color: black;
+  background-color: #313131;
   display:grid;
   min-height:100vh;
 }
@@ -18,14 +18,17 @@ footer {
   padding: 10px;
   color: #8B8982;
 }
+footer a {
+  text-decoration: none;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-.logo {
-  min-width: 90%;
+.float-right {
+  float: right;
 }
 
 .icon {
@@ -33,8 +36,6 @@ code {
   width: 1em;
 }
 .icon-lines {
-  height: 1em;
-  width: 1em;
   fill:none; 
   stroke-width:10;
 }
@@ -43,13 +44,18 @@ code {
   width: 1em;
   stroke-width:0;
 }
-
 .title {
   color: #e5f77d;
+  padding-top: 5vh;
   margin-bottom: 5vh;
-  background-image: linear-gradient(#222222, black);
+  background-image: linear-gradient(#222222,#313131);
 }
 
+.navbar {
+  background-color: #313131;
+  background-color: rgba(49, 49, 49, 0.6);
+  backdrop-filter: blur(5px);
+}
 .navbar-nav {
 	display: inline-block;
   font-size: 1em;
@@ -76,36 +82,30 @@ code {
 }
 
 hr {
-  border-top: 1px solid #72DDF7;
+  border-top: 2px solid #72DDF7;
 }
 
-a {
-  color: #E5F77D;
+.tab-list {
+  font-size: 1em;
+  font-weight: bold;
 }
-
 .tab-list-item {
+  margin: 0 auto;
   width: 100%;
-  max-width:200px;
   color: #313131;
   background-color: #72DDF7;
   border: 3px outset #313131;
-  font-weight: bold;
-  font-size: 1em;
 }
 .tab-list-item:hover {
   border-color: #E5F77D;
 }
 .selected-tab-list-item {
   width: 100%;
-  max-width:200px;
   background-color: #8B80F9;
   border: 3px inset #313131;
-  font-weight: bold;
-  font-size: 1em;
 }
 
 .benji-border {
-  border: solid;
   border-image: linear-gradient(#e5f77d,#8B80F9) 30;
   background-color: #313131;
   min-height: 50vh;
@@ -123,7 +123,6 @@ a {
   stroke: #313131;
   fill: #313131;
 }
-
 .benji-link:hover {
   background-color: #e5f77d;
 }
@@ -144,36 +143,18 @@ h4 {
 }
 
 .item-lists {
-  list-style: none;
-  font-size: 1.5em;
-}
-.item-lists li {
-  background-color: lightblue;
-  display: inline-block;
-  border-radius: 15px;
-  margin: 3px;
+  font-size: 0.6em;
 }
 .item-lists b {
   color: #313131;
-  padding: 5px;
+  background-color: #72DDF7;
+  border-radius: 15px;
+  width: 100%;
+  display: inline-block;
+  margin: 6px 0;
+  padding: 3px 10px;
 }
 
-/*setting up mobile display*/
-.tablet-mobile {
-  display: block;
-}
-.tablet-desktop {
-  display: none;
-}
-.mobile-only {
-  display: block;
-}  
-.desktop-only {
-  display: none;
-}
-.tab-list {
-  display: none;
-}
 .content {
   width: 100%;
   list-style: none;
@@ -187,18 +168,30 @@ h4 {
 .content img {
   float: right;
   max-height: 200px;
-  border-style: inset;
-  border-color: #313131;
   margin-left: 15px;
   margin-bottom: 15px;
+}
+
+/*setting up mobile display*/
+.tablet-desktop {
+  display: none;
+}
+.mobile-only {
+  display: block;
+}  
+.desktop-only {
+  display: none;
+}
+.tab-list {
+  display: none;
 }
 .about-card {
   color: #72DDF7;
   height: 100%;
   border-left: none;
 }
-/*media query for tablets only*/
-@media screen and (min-width: 563px) and (max-width: 769px)
+/*media query for tablets and mobile only*/
+@media screen and (max-width: 769px)
 {
   .tablet-mobile {
     display: block;
@@ -218,7 +211,10 @@ h4 {
     display: none;
   }
   .about-card {
-    border-left: 3px solid #72DDF7;
+    border-left: 1px solid #72DDF7;
+  }
+  .item-lists {
+    font-size: 1em;
   }
 }
 /*media query for desktop only*/

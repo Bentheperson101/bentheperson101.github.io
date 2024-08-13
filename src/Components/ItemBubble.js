@@ -2,15 +2,13 @@ export default function ItemBubble({ items }) {
 
     const listItem = items.map(item=>
         <>
-            <li className="text-center text-nowrap"><b>{item}</b></li>
+            <div className="col-4 text-center text-nowrap"><b>{item}</b></div>
         </>
     )
 
     return (
-        <div className="">
-            <ul className="item-lists">
-                {listItem}
-            </ul>
+        <div className="row item-lists">
+            {listItem}
         </div>
     )
 };

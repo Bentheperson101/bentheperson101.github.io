@@ -18,24 +18,33 @@ export const aboutMeCards = [{
             <li>I have a love for creating  different things and problem solving.</li>
         </ul>
         <br></br>
-        <p>Back in high school I was unsure of my direction in life. I had originally
-        planned to become an astronaut, but my grades were not good enough at the time and the 
-        idea overwhelmed me. I had joined a club with my friends that was technology based, since
-        I had a bit of an interest in games and the idea of coding. We used that time to do whatever 
-        projects the teacher overseeing gave us as well as mess around with unity on one of the computers 
-        trying to make a silly 2D game. The teacher at one point recognized our interest in coding and 
-        offered to place us into the honors programming course the following year. My friend and accepted
-        the offer, and I found my place after that. Eventually, it would lead me to getting a five on the
-        AP exam and going off to college to pursue computer science.</p>
-
-        <p>I have had a rough and bumpy journey since leaving high school, but I am finally
-        nearing the end of my academic journey for the time being.</p>
-        <br></br>
-
         <h5>All the Things I Like</h5>
         <ItemBubble
-            items= {["Gaming", "Anime", "Manga", "Hiking", "Camping", "Exploring", "Music", "Creating", "Traveling"]}
+            items= {["Manga", "Hiking", "Camping"]}
         />
+        <ItemBubble
+            items= {["Gaming", "Anime", "Traveling"]}
+        />
+        <ItemBubble
+            items= {["Exploring", "Music", "Creating"]}
+        />
+        <br></br>
+        <InfoCard
+            title={"My Story"}
+            subtitle={null}
+            text={"Back in high school I was unsure of my direction in life. I had originally " +
+                "planned to become an astronaut, but my grades were not good enough at the time and the " +
+                "idea overwhelmed me. I had joined a club with my friends that was technology based, since " +
+                "I had a bit of an interest in games and the idea of coding. We used that time to do whatever " +
+                "projects the teacher overseeing gave us as well as mess around with unity on one of the computers " +
+                "trying to make a silly 2D game. The teacher at one point recognized our interest in coding and " +
+                "offered to place us into the honors programming course the following year. My friend and accepted " +
+                "the offer, and I found my place after that. Eventually, it would lead me to getting a five on the " +
+                "AP exam and going off to college to pursue computer science."}
+            key={"story"}
+        />
+        <p>I have had a rough and bumpy journey, but I am finally
+        nearing the end of my academic journey for the time being.</p>
         <br></br>
     </>
 }, {
@@ -46,11 +55,24 @@ export const aboutMeCards = [{
      <>
         <h5 className="mb-3"><b>Tech I Am Comfortable With:</b></h5>
         <ItemBubble
-            items= {["HTML", "CSS", "React", "C#", "JavaScript", "VS Code", "GitHub", "Unity"]}
+            items= {["HTML", "CSS", "React"]}
         />
+        <ItemBubble
+            items= {["C#", "GitHub", "Unity"]}
+        />
+        <ItemBubble
+            items= {["JavaScript", "VS Code"]}
+        />
+        <br></br>
         <h5 className="mb-3"><b>Tech I Am Familiar With:</b></h5>
         <ItemBubble
-            items= {["C++", "Bootstrap5", "XAMPP", "MongoDB", "SQL", "PHP", "Python", "Java"]}
+            items= {["C++", "Bootstrap5", "XAMPP"]}
+        />
+        <ItemBubble
+            items= {["MongoDB", "Python", "Java"]}
+        />
+        <ItemBubble
+            items= {["SQL", "PHP"]}
         />
         <br></br>
      </>
@@ -80,13 +102,10 @@ export const aboutMeCards = [{
             <InfoCard
                 title={"Bachelors of Computer Science | Wilmington University"}
                 subtitle={"January 2022 - Present | Expected Completion: December 2024"}
-                text={"I attend online, through Guild and my job at target. I have taken all sorts of " +
-                    "classes, but the relevant ones are: Web Design and Development, Computer Science " +
-                    "Fundamentals, Computer Architecture, PHP Application Development, Fundamentals of O-O " +
-                    "Programming, Microsoft .Net I & II, JavaScript, Database Foundations, Innovative Web Development, " +
-                    "O-O Systems Analysis and Design, Computer Hardware and Operation, Networks and Communications, " +
-                    "Big Data and Visualization, Ethics for Computer Professionals, Fundamentals of Cybersecurity, " +
-                    "Introduction to Programming with Python, Java I, Intro to Artificial Intelligence, and Intro to Game Programming."}
+                text={"Relevant classes: PHP Application Development, Microsoft .Net I & " +
+                    "II, JavaScript, Database Foundations, Innovative Web Development, O-O Systems Analysis " +
+                    "and Design, Introduction to Programming with Python, Java I, Intro to Artificial " +
+                    "Intelligence, and Intro to Game Programming."}
                 key={"uni"}
             />
             <InfoCard
@@ -97,14 +116,20 @@ export const aboutMeCards = [{
             />
             <InfoCard
                 title={"Undergrad Certificate - Microsoft.net Applications | Wilmington University"}
-                subtitle={"May 2024 - Present | Expected Completion: December 2024"}
+                subtitle={" Completed May 2024"}
                 text={null}
                 key={"dotnet"}
             />
         </>
 }, {
     id: 4,
-    title: "Resume",
-    subtitle: "Resume Preview & Link",
-    text: 'link here idk'
+    title: "Resumé",
+    subtitle: "Resumé Preview & Link",
+    text: 
+    <>
+        <object className="tablet-desktop" data="resume/Benjamin Kosty - Resume.pdf" type="application/pdf" width="100%" height="70%" title="Resume PDF">
+        </object>
+        <br></br>
+        <a href="resume/Benjamin Kosty - Resume.pdf" className="p-2 mt-5 mb-5 benji-link"  target="_blank" rel="noreferrer">Check it out</a>
+    </>
 }];

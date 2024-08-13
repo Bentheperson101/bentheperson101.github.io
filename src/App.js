@@ -4,7 +4,6 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Works from "./pages/Works";
-import Contact from "./pages/Contact";
 
 
 export default function App() {
@@ -15,7 +14,6 @@ export default function App() {
           <Route index element={<Home/>}/>
           <Route path="aboutme" element={<AboutMe/>}/>
           <Route path="works" element={<Works/>}/>
-          <Route path="contact" element={<Contact/>}/>
         </Route>
 
       </Routes>

@@ -6,11 +6,6 @@ const Layout = () => {
     return(
         <>
             <div className="title">
-                <div class="pt-3 ps-3">
-                    <Link className="logo" to="/">
-                        <img src="logo.png" alt="Logo" style={{width: 40}}></img>
-                    </Link>
-                </div>
                 <div className="text-center p-3">
                     <h1>Benjamin Kosty</h1>
                     <h5>Welcome to my website, feel free to explore all the pages!</h5>
@@ -46,14 +41,6 @@ const Layout = () => {
                                     <line x1="20" y1="140" x2="45" y2="115" className="icon-lines"></line>
                                 </svg>
                                 Works
-                            </Link>
-                        </li>
-                        <li class={location.pathname === "/Contact" ? "nav-item current-page" : "nav-item"}>
-                            <Link  className="nav-link mx-3" to="/Contact">
-                                <svg viewBox="0 0 150 150" className="me-2 icon">
-                                    <polyline points="5 25, 5 125, 145 125, 145 25, 5 25, 75 75, 145 25" className="icon-lines"></polyline>
-                                </svg>
-                                Contact
                             </Link>
                         </li>
                     </ul>
