@@ -13,7 +13,7 @@ export const worksInfo = [{
     id: 1,
     title: "React Project for School",
     langs: "HTML, CSS, JavaScript/JSX, React, Bootstrap 5, Visual Studio Code",
-    desc: "This was the final project for my Innovative Web Development course. It is not anything big, but it" +
+    desc: "This was the final project for my Innovative Web Development course. It is not anything big, but it " +
                 "is a website that uses react and has different functionality. There is a list of favorite planets that " +
                 "you can add to and remove from using a JSON object that is stored in a data file. Other pages just display" +
                 "information and use components. The logo is custom, and the planet list on the home page also uses a JSON" +
