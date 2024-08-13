@@ -19,7 +19,10 @@ footer {
   text-align: center;
   overflow: hidden;
   padding: 10px;
-  color: #8B8982;
+  color: #e5f77d;
+}
+footer b {
+  font-size: 0.6em;
 }
 footer a {
   text-decoration: none;
@@ -80,7 +83,7 @@ footer a {
   fill: #E5F77D;
 }
 .current-page {
-  background-color: #8B80F9;
+  background-color: #7D83FF;
   border-style: inset;
   border-color: #313131;
 }
@@ -118,7 +121,7 @@ h4 {
 }
 .item-lists b {
   color: #313131;
-  background-color: #72DDF7;
+  background-color: #2DC887;
   border-radius: 15px;
   width: 100%;
   display: inline-block;
@@ -180,6 +183,9 @@ h4 {
   }
   .navbar-nav {
     font-size: 1em;
+  }
+  footer b {
+    font-size: 0.9em;
   }
 }
 /*media query for desktop only*/
