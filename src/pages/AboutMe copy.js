@@ -1,6 +1,6 @@
 //import { useState } from "react";
 //import PageHeader from "../Components/PageHeader";
-import HistoryCard from "../Components/HistoryCard";
+import HistoryCard from "../Components/AboutMeCard";
 
 const AboutMe = () => {
     return (

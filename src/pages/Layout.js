@@ -5,14 +5,16 @@ const Layout = () => {
 
     return(
         <>
-            <div class="p-3">
-                <Link className="logo" to="/">
-                    <img src="logo.png" alt="Logo" style={{width: 40}}></img>
-                </Link>
-            </div>
-            <div className="title text-center p-3">
-                <h1>Benjamin Kosty</h1>
-                <h5>Welcome to my website, feel free to explore all the pages!</h5>
+            <div className="title">
+                <div class="pt-3 ps-3">
+                    <Link className="logo" to="/">
+                        <img src="logo.png" alt="Logo" style={{width: 40}}></img>
+                    </Link>
+                </div>
+                <div className="text-center p-3">
+                    <h1>Benjamin Kosty</h1>
+                    <h5>Welcome to my website, feel free to explore all the pages!</h5>
+                </div>
             </div>
 
             <nav class="navbar sticky-top">
