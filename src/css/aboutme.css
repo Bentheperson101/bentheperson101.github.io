@@ -1,0 +1,61 @@
+
+.tab-list {
+    font-size: 1em;
+    font-weight: bold;
+}
+.tab-list-item {
+    margin: 0 auto;
+    width: 100%;
+    color: #313131;
+    background-color: #72DDF7;
+    border: 3px outset #313131;
+}
+.tab-list-item:hover {
+    border-color: #E5F77D;
+}
+.selected-tab-list-item {
+    width: 100%;
+    background-color: #8B80F9;
+    border: 3px inset #313131;
+}
+
+.expand-button {
+    border: none;
+    text-decoration: underline;
+    color: #72DDF7;
+    background-color: #313131;
+}
+
+/* Setting up mobile */
+
+.tab-list {
+    display: none;
+}
+.about-card {
+    color: #72DDF7;
+    height: 100%;
+    border-left: none;
+}
+
+/*media query for tablets and desktop*/
+@media screen and (min-width: 563px)
+{
+  .tab-list {
+    display: block;
+    font-size: 0.9em;
+  }
+  .item-lists {
+    font-size: 1em;
+  }
+}
+
+/*media query for desktop only*/
+@media screen and (min-width: 769px)
+{
+  .about-card {
+    border-left: 1px solid #72DDF7;
+  }
+  .tab-list {
+    font-size: 1.2em;
+  }
+}

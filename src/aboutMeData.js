@@ -11,7 +11,13 @@ export const aboutMeCards = [{
     subtitle: "I Love Building Things",
     text: 
     <> 
-        <p>I am excited to work on any project</p>
+        <p>No matter where I am, if I am coding then I am enjoying my time.
+            I love coding things, seeing them work, or sometimes seeing them not
+            work and then fixing them. I enjoy generally enjoy creating things and
+            seeing them to completion.
+        </p>
+        <br></br>
+        <h5>Some fun facts</h5>
         <ul>
             <li>{"I am " + age + " years old and my birthday is on August 19th."}</li>
             <li>I will finish up my bachelors in Computer Science this December.</li>
@@ -130,6 +136,6 @@ export const aboutMeCards = [{
         <object className="tablet-desktop" data="resume/Benjamin Kosty - Resume.pdf" type="application/pdf" width="100%" height="70%" title="Resume PDF">
         </object>
         <br></br>
-        <a href="resume/Benjamin Kosty - Resume.pdf" className="p-2 mt-5 mb-5 benji-link"  target="_blank" rel="noreferrer">Check it out</a>
+        <a href="resume/Benjamin Kosty - Resume.pdf" className="p-2 my-5 mx-auto benji-link"  target="_blank" rel="noreferrer">Check it out</a>
     </>
 }];

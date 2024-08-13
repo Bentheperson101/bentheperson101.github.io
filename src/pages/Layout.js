@@ -8,7 +8,7 @@ const Layout = () => {
             <div className="title">
                 <div className="text-center p-3">
                     <h1>Benjamin Kosty</h1>
-                    <h5>Welcome to my website, feel free to explore all the pages!</h5>
+                    <h5>Computer Science Student - <i>Bringing dreams to reality</i></h5>
                 </div>
             </div>
 
@@ -45,7 +45,7 @@ const Layout = () => {
                         </li>
                     </ul>
             </nav>
-
+            
             <Outlet />
         </>
     )

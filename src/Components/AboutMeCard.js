@@ -1,7 +1,7 @@
 export default function AboutMeCard({ title, subtitle, text, isActive, expand }) {
     return (
         <>
-            <div className="mobile-only">
+            <div className="tablet-mobile">
                 <div className="p-3">
                     {isActive ? (
                         <>
@@ -20,13 +20,15 @@ export default function AboutMeCard({ title, subtitle, text, isActive, expand })
                     <h4>{title}</h4>
                 </div>
                 <hr></hr>
-                {isActive ? (
-                    <>{text}</>
-                ): (
-                    <></>
-                )}
+                <div className="p-3">
+                    {isActive ? (
+                        <>{text}</>
+                    ): (
+                        <></>
+                    )}
+                </div>
             </div>
-            <p className="p-3 tablet-desktop" style={{height:"100%"}}>
+            <p className="p-3 desktop-only" style={{height:"100%"}}>
                 <h4>{subtitle}
                     <hr className="mb-4"></hr>
                 </h4>

@@ -23,45 +23,44 @@ const AboutMe = () => {
     )
 
     const listCards = aboutMeCards.map(card =>
-                <div className="row mx-auto" style={{height: "100%"}}>
-                    <div className="about-card">
-                        <AboutMeCard
-                            title={card.title}
-                            subtitle={card.subtitle}
-                            text={card.text}
-                            isActive={index===card.id}
-                            expand={() => expand(card.id)}
-                        />
-                    </div>
-                </div>
+        <div className="row" style={{height: "100%"}}>
+            <div className="col about-card p-3">
+                <AboutMeCard
+                    title={card.title}
+                    subtitle={card.subtitle}
+                    text={card.text}
+                    isActive={index===card.id}
+                    expand={() => expand(card.id)}
+                />
+            </div>
+        </div>
     )
 
     return (
         <>
-            <div className="p-3">
-                <div className="tablet-desktop">    
-                    <ContentCard
-                        title=""
-                        content={
-                            <div className="row" style={{height: "100%", width:"100%"}}>
-                                <div className="col-3 py-5 tab-list">
-                                    {listTabs}
-                                </div>
-                                <div className="col-9 about-card">
-                                    <AboutMeCard
-                                        title={aboutMeCards[index].title}
-                                        subtitle={aboutMeCards[index].subtitle}
-                                        text={aboutMeCards[index].text}
-                                    />
-                                </div>
-                            </div>}
-                    />
-                </div>
-                <div className="mobile-only">
-                    {listCards}
-                </div>
+            <div className="desktop-only page-container p-3">    
+                <ContentCard
+                    title=""
+                    content={
+                        <div className="row" style={{height: "100%", width:"100%"}}>
+                            <div className="col-3 py-5 tab-list">
+                                {listTabs}
+                            </div>
+                            <div className="col-9 about-card">
+                                <AboutMeCard
+                                    title={aboutMeCards[index].title}
+                                    subtitle={aboutMeCards[index].subtitle}
+                                    text={aboutMeCards[index].text}
+                                />
+                            </div>
+                        </div>}
+                />
+            </div>
+            <div className="tablet-mobile page-container p-3">
+                {listCards}
             </div>
         </>
+        
     )
 };
 
