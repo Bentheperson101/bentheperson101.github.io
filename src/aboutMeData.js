@@ -11,11 +11,11 @@ export const aboutMeCards = [{
     subtitle: "I Love Building Things",
     text: 
     <> 
-        <p>I am excited to work on any project </p>
+        <p>I am excited to work on any project</p>
         <ul>
             <li>{"I am " + age + " years old and my birthday is on August 19th."}</li>
             <li>I will finish up my bachelors in Computer Science this December.</li>
-            <li>I have a love for creating  different things and problem solving.</li>
+            <li>I have a love for creating different things and problem solving.</li>
         </ul>
         <br></br>
         <h5>All the Things I Like</h5>
