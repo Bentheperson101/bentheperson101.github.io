@@ -61,24 +61,24 @@ export const aboutMeCards = [{
      <>
         <h5 className="mb-3"><b>Tech I Am Comfortable With:</b></h5>
         <ItemBubble
-            items= {["HTML", "CSS", "React"]}
+            items= {["HTML", "React", "Bootstrap5"]}
         />
         <ItemBubble
             items= {["C#", "GitHub", "Unity"]}
         />
         <ItemBubble
-            items= {["JavaScript", "VS Code"]}
+            items= {["JavaScript", "VS Code", "CSS"]}
         />
         <br></br>
         <h5 className="mb-3"><b>Tech I Am Familiar With:</b></h5>
         <ItemBubble
-            items= {["C++", "Bootstrap5", "XAMPP"]}
+            items= {["C++", "PHP", "XAMPP"]}
         />
         <ItemBubble
             items= {["MongoDB", "Python", "Java"]}
         />
         <ItemBubble
-            items= {["SQL", "PHP"]}
+            items= {["SQL"]}
         />
         <br></br>
      </>
