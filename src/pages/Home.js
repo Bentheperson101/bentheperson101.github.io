@@ -17,23 +17,25 @@ const Home = () => {
                             <br></br>
                             <p>Here's what each page tab contains:</p> 
                             <ul>
-                                <li><b className="text-decoration-underline">About Me:</b> who I am, what tech I know, my job history, my education history, and a link to my resume.</li>
-                                <li><b className="text-decoration-underline">Works:</b> projects I have completed.</li>
+                                <li><b className="text-decoration-underline">About Me</b> - who I am, what tech I know, my job history, my education history, and a link to my resume.</li>
+                                <li><b className="text-decoration-underline">Works</b> - projects I have completed.</li>
                             </ul>
                             <br></br>
-                            <p>I put together this website and built it live following YouTube videos and other online tutorials.
+                            <h5>I Am Currently</h5>
+                            <p>Looking for a new full time position in software development/web development/similar. I am also working on a MERN social media project I did 
+                                for my last semester in college: <a href="https://www.guilddotlfg.com/">guilddotlfg.com</a></p>
+                            <br></br>
+                            <h5>Note</h5>
+                            <p>I put together this website using my HTML, CSS, REACT, and JavaScript knowledge but I built it live following YouTube videos and other online tutorials.
                             That means it may not be perfect. I was not taught how to put up live websites in class or deploy
                             react websites.</p>
                             <br></br>
-                            <h5>I Am Currently</h5>
-                            <p>Looking for an internship while finishing my degree and working at Target. Anything related to
-                            software development or web development is the goal, I need experience.</p>
-                            <br></br>
                         </div>
-                        <h5>Website Updates:</h5>
+                        <h5>Website Updates</h5>
                         <ul>
-                            <li><b>August-13-2024</b> - Revised entire website from previous version.</li>
+                            <li><b>January-5-2025</b> - Updated with a new project in the works page and other updates related to my graduation.</li>
                             <li><b>August-14-2024</b> - Added picture of me. Adjustments to CSS, some optimization, and other tinkering.</li>
+                            <li><b>August-13-2024</b> - Revised entire website from previous version.</li>
                         </ul>
                     </div>
                 }

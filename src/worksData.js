@@ -1,5 +1,16 @@
 export const worksInfo = [{
     id: 0,
+    title: "guild.LFG",
+    langs: "HTML, CSS, JavaScript/JSX, React, Bootstrap 5, Node, Express, Mongoose, MongoDB, Visual Studio Code",
+    desc: "I made a social media website for desktop as a project for my last computer science class. I had to teach" +
+                " myself a lot through YouTube and other online documentation about backends and how they work with databases." +
+                " I used a few different libraries and heroicons.com to help put the website together and make it look ok." +
+                " This was a big learning experience for me and I found out so many new things." +
+                " Feel free to check it out!",
+    img: "images/guilddotlfg proj.png",
+    link: "https://www.guilddotlfg.com/"
+}, {
+    id: 1,
     title: "Knight's Last Stand",
     langs: "C#, Unity, Visual Studio 2022",
     desc: "I made my first game in unity for a game development class I took as a free elective. I made it" +
@@ -10,7 +21,7 @@ export const worksInfo = [{
     img: "https://img.itch.zone/aW1hZ2UvMjY2ODAyNS8xNTkxMDE5OC5wbmc=/original/1tVSv4.png",
     link: "https://bentheperson101.itch.io/knights-last-stand"
 }, {
-    id: 1,
+    id: 2,
     title: "React Project for School",
     langs: "HTML, CSS, JavaScript/JSX, React, Bootstrap 5, Visual Studio Code",
     desc: "This was the final project for my Innovative Web Development course. It is not anything big, but it " +
@@ -21,7 +32,7 @@ export const worksInfo = [{
     img: "images/react proj.png",
     link: "https://github.com/Bentheperson101/React-school-project-code"
 }, {
-    id: 1,
+    id: 3,
     title: "PHP/SQL Assignment Example",
     langs: "HTML, JavaScript, PHP, SQL, XAMPP",
     desc: "This is a simple assignment, not a project. It is here to show I have used these languages and " +

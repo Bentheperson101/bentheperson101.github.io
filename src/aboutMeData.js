@@ -20,7 +20,7 @@ export const aboutMeCards = [{
         <h5>Some fun facts</h5>
         <ul>
             <li>{"I am " + age + " years old, and my birthday is on August 19th."}</li>
-            <li>I will finish up my bachelor's in computer science this December.</li>
+            <li>I'm colorblind!</li>
             <li>I have a love for creating different things and problem solving.</li>
         </ul>
         <br></br>
@@ -50,7 +50,7 @@ export const aboutMeCards = [{
             key={"story"}
         />
         <p>I have had a rough and bumpy journey, but I am finally
-        nearing the end of my academic journey for the time being.</p>
+        really getting into my career so I am excited.</p>
         <br></br>
     </>
 }, {
@@ -69,16 +69,16 @@ export const aboutMeCards = [{
         <ItemBubble
             items= {["JavaScript", "VS Code", "CSS"]}
         />
+        <ItemBubble
+            items= {["MongoDB", "Java"]}
+        />
         <br></br>
         <h5 className="mb-3"><b>Tech I Am Familiar With:</b></h5>
         <ItemBubble
             items= {["C++", "PHP", "XAMPP"]}
         />
         <ItemBubble
-            items= {["MongoDB", "Python", "Java"]}
-        />
-        <ItemBubble
-            items= {["SQL"]}
+            items= {["SQL", "Python"]}
         />
         <br></br>
      </>
@@ -107,16 +107,16 @@ export const aboutMeCards = [{
         <>
             <InfoCard
                 title={"Bachelors of Computer Science | Wilmington University"}
-                subtitle={"January 2022 - Present | Expected Completion: December 2024"}
+                subtitle={"Completed December 2024"}
                 text={"Relevant classes: PHP Application Development, Microsoft .Net I & " +
                     "II, JavaScript, Database Foundations, Innovative Web Development, O-O Systems Analysis " +
                     "and Design, Introduction to Programming with Python, Java I, Intro to Artificial " +
-                    "Intelligence, and Intro to Game Programming."}
+                    "Intelligence, User-Centered Design, and Intro to Game Programming."}
                 key={"uni"}
             />
             <InfoCard
                 title={"Undergrad Certificate - Java Programming | Wilmington University"}
-                subtitle={"May 2024 - Present | Expected Completion: December 2024"}
+                subtitle={" Completed December 2024"}
                 text={null}
                 key={"java"}
             />
