@@ -26,9 +26,8 @@ const Home = () => {
                                 for my last semester in college: <a href="https://www.guilddotlfg.com/">guilddotlfg.com</a></p>
                             <br></br>
                             <h5>Note</h5>
-                            <p>I put together this website using my HTML, CSS, REACT, and JavaScript knowledge but I built it live following YouTube videos and other online tutorials.
-                            That means it may not be perfect. I was not taught how to put up live websites in class or deploy
-                            react websites.</p>
+                            <p>I put together this website using my HTML, CSS, REACT, and JavaScript knowledge from class but I learned deployment 
+                                workflows using online resources and documentation</p>
                             <br></br>
                         </div>
                         <h5>Website Updates</h5>
