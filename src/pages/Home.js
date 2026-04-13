@@ -22,8 +22,7 @@ const Home = () => {
                             </ul>
                             <br></br>
                             <h5>I Am Currently</h5>
-                            <p>Looking for a new full time position in software development/web development/similar. I am also working on a MERN social media project I did 
-                                for my last semester in college: <a href="https://www.guilddotlfg.com/">guilddotlfg.com</a></p>
+                            <p>Looking for a new full time position in software development/web development/similar.</p>
                             <br></br>
                             <h5>Note</h5>
                             <p>I put together this website using my HTML, CSS, REACT, and JavaScript knowledge from class but I learned deployment 
@@ -35,6 +34,7 @@ const Home = () => {
                             <li><b>January-5-2025</b> - Updated with a new project in the works page and other updates related to my graduation.</li>
                             <li><b>August-14-2024</b> - Added picture of me. Adjustments to CSS, some optimization, and other tinkering.</li>
                             <li><b>August-13-2024</b> - Revised entire website from previous version.</li>
+                            <li><b>February-25-2026</b> - Replaced resume file and the picture of me.</li>
                         </ul>
                     </div>
                 }
