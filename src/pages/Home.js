@@ -34,11 +34,11 @@ const Home = () => {
                         </div>
                         <h5>Website Updates</h5>
                         <ul>
+                            <li><b>April-12-2026</b> - Updated what im currently doing/working on</li>
+                            <li><b>February-25-2026</b> - Replaced resume file and the picture of me.</li>
                             <li><b>January-5-2025</b> - Updated with a new project in the works page and other updates related to my graduation.</li>
                             <li><b>August-14-2024</b> - Added picture of me. Adjustments to CSS, some optimization, and other tinkering.</li>
                             <li><b>August-13-2024</b> - Revised entire website from previous version.</li>
-                            <li><b>February-25-2026</b> - Replaced resume file and the picture of me.</li>
-                            <li><b>April-12-2026</b> - Updated what im currently doing/working on</li>
                         </ul>
                     </div>
                 }
