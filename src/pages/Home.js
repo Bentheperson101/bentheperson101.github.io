@@ -23,6 +23,9 @@ const Home = () => {
                             <br></br>
                             <h5>I Am Currently</h5>
                             <p>Looking for a new full time position in software development/web development/similar.</p>
+                            <p>Working on a fun non-professional personal portfolio/profile website.</p>
+                            <p>Working on a chat website/webapp for my friends and I as a private replacement for Discord.</p>
+                            <p>Working on a larger secret website! It would act as a helpful tool and that's all I am willing to share right now.</p>
                             <br></br>
                             <h5>Note</h5>
                             <p>I put together this website using my HTML, CSS, REACT, and JavaScript knowledge from class but I learned deployment 
@@ -35,6 +38,7 @@ const Home = () => {
                             <li><b>August-14-2024</b> - Added picture of me. Adjustments to CSS, some optimization, and other tinkering.</li>
                             <li><b>August-13-2024</b> - Revised entire website from previous version.</li>
                             <li><b>February-25-2026</b> - Replaced resume file and the picture of me.</li>
+                            <li><b>April-12-2026</b> - Updated what im currently doing/working on</li>
                         </ul>
                     </div>
                 }
